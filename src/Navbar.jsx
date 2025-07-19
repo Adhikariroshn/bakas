@@ -2,7 +2,6 @@ import { useState } from "react";
 function Navbar(){
     const [count, setCount] = useState(0);
     const handleClick = () =>{
-        setCount(count + 1);
         if(count >= 10){
             alert("Maximum limit reached"); 
             setCount(10);

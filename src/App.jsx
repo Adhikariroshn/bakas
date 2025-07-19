@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import Fruit from "./Fruit";
 function App() {
   return(
     <>
@@ -6,6 +7,7 @@ function App() {
       BAKAS
       </h1>
       <Navbar />
+      <Fruit />
       </>
   )
 }
