@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Fruit from "./Fruit";
+import Bbody from "./Bbody";
 function App() {
   return(
     <>
@@ -8,6 +9,7 @@ function App() {
       </h1>
       <Navbar />
       <Fruit />
+      <Bbody />
       </>
   )
 }
